@@ -8,8 +8,8 @@ A fully custom-built C++ gravity simulator with 2D physics logic rendered in 3D 
 
 - Uses Newton's Laws of Gravitation for Physics simulations
 - Modular architecture with separate classes for:
-  - `Vector2`: Core math for 2D vector operations
-  - `Body`: Represents a physical object with mass, velocity, and position
+  - `Vector2`: Core math for 2D vector operations [FINISHED]
+  - `Body`: Represents a physical object with mass, velocity, and position [FINISHED]
   - `Simulation`: [Planned] Governs the gravitational interactions between all bodies
   - `Renderer`: [Planned] Real-time OpenGL-based visualizer
 - [Planned] Time-stepped physics with Euler integration

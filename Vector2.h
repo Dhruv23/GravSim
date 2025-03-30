@@ -27,7 +27,8 @@ public:
     double distanceTo(const Vector2 &other) const;
     Vector2 rotate(double angleRadians) const;
 
-    static Vector2 zero() { return Vector2(0, 0); }
+    static Vector2 zeroObj() { return Vector2(0, 0); }
+    void zero();
 };
 
 #endif

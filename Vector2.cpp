@@ -86,3 +86,9 @@ Vector2 Vector2::rotate(double angleRadians) const
     double sinA = std::sin(angleRadians);
     return Vector2(x * cosA - y * sinA, x * sinA + y * cosA);
 }
+
+void Vector2::zero()
+{
+    x = 0;
+    y = 0;
+}

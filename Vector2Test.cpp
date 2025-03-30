@@ -92,7 +92,7 @@ void testEquality()
 
 void testZero()
 {
-    Vector2 zero = Vector2::zero();
+    Vector2 zero = Vector2::zeroObj();
     std::cout << "Zero Vector Test: "
               << (zero.x == 0.0 && zero.y == 0.0)
               << "\n";
